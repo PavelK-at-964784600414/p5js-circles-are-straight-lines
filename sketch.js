@@ -29,8 +29,12 @@ function draw() {
   for (let tile of tiles) {
     tile.display(offset);
   }
-  if (mouseIsPressed) {
-      saveCanvas('frame' + nf(counter, 4) + '.png'); // Save with a numbered filename
+ 
+}
+
+function keyPressed() {
+  if (keyCode === 32) {  // 32 is the key code for the spacebar
+    saveCanvas('frame' + nf(counter, 4) + '.png'); // Save with a numbered filename
     counter++; 
   }
 }
