@@ -1,6 +1,6 @@
 # p5js-straight-lines-are-circles
 
-Sketch of circles that look line straight lines, but are they?
+A huge circle can look like straight line if look closly
 
 Instructions:
   1. Open this link: https://pavelk-at-964784600414.github.io/p5js-circles-are-straight-lines/
